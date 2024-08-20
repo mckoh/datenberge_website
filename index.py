@@ -46,6 +46,8 @@ with col2:
         * Management Center Innsbruck
         * University of Applied Sciences Kufstein
         * University of Innsbruck
+
+        [Book a 30 Minutes virtual meeting with me.](https://calendly.com/michael-kohlegger/30min)
         """
     )
 
