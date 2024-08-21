@@ -18,7 +18,7 @@ ICON_PATH = "static/icon.png"
 st.set_page_config(
     page_title=TITLE,
     page_icon=ICON,
-    layout="wide",
+    layout="centered",
     initial_sidebar_state="collapsed"
 )
 
@@ -32,22 +32,20 @@ separation = st.sidebar.slider("Separation", 0.7, 2.0, 0.7885)
 progress_bar = st.sidebar.progress(0)
 frame_text = st.sidebar.empty()
 
-col1, col2, col3 = st.columns(3)
 
-with col1:
-    image = st.empty()
+image = st.empty()
 
-with col2:
-    st.title("Michael Kohlegger")
-    st.markdown(
-        """
-        Professor, data scientist and developer affiliated with ...
+st.title("Michael Kohlegger")
 
-        * Management Center Innsbruck
-        * University of Applied Sciences Kufstein
-        * University of Innsbruck
-        """
-    )
+st.markdown(
+    """
+    Professor, data scientist and developer affiliated with ...
+
+    * Management Center Innsbruck
+    * University of Applied Sciences Kufstein
+    * University of Innsbruck
+    """
+)
 
 m, n, s = 960, 640, 400
 x = np.linspace(-m / s, m / s, num=m).reshape((1, m))
