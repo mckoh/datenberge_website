@@ -41,11 +41,11 @@ st.markdown(
     """
     Professor, data scientist and developer affiliated with ...
 
-    * Management Center Innsbruck
-    * University of Applied Sciences Kufstein
-    * University of Innsbruck
-    """
-)
+        * Management Center Innsbruck
+        * University of Applied Sciences Kufstein
+        * University of Innsbruck
+        """
+    )
 
 m, n, s = 960, 640, 400
 x = np.linspace(-m / s, m / s, num=m).reshape((1, m))
